@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Couple · RSVP tracker</title><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#7E8F73">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;family=Cormorant+Garamond:ital,wght@0,500;1,500&amp;family=Whisper&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="rsvp.css"></head>
+<body><main class="cp">
+<h1>Sean &amp; Angelica</h1><p class="caps sm">RSVP tracker · couple only</p>
+<div class="rcard" id="login"><form id="lf"><label>Password<input id="pw" type="password" autocomplete="current-password" required></label>
+<button class="btn" type="submit">Open tracker</button><p class="err" id="lerr" role="alert"></p></form></div>
+<section id="dash" hidden>
+<div class="stats" id="stats"></div>
+<div class="bar"><div class="tabs" id="tabs"></div><div class="acts"><button id="rf" type="button">Refresh</button><button id="lo" type="button">Log out</button></div></div>
+<div id="list"></div>
+<form class="rcard add" id="af"><label>Add guests<textarea id="bulk" placeholder="One guest or family per line. Add a comma and the number of seats, e.g.&#10;Kuya Renzo, 2&#10;Tita Baby, 1" required></textarea></label>
+<p>Each guest gets a personal link. Copy it from the list and send it to them.</p><button class="btn" type="submit">Add to guest list</button><p class="err" id="aerr" role="alert"></p></form>
+</section></main><script src="couple.js"></script></body></html>
